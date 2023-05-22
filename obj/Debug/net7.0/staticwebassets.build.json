@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9yCd1HDYFJRhN/Om/5eGi/teNs/MLvW8IvG0KW2BYdQ=",
+  "Source": "FileUploadApiAzureBlobStorage",
+  "BasePath": "_content/FileUploadApiAzureBlobStorage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
