@@ -5,7 +5,7 @@ using FileUploadApiAzureBlobStorage.Models;
 using FileUploadApiAzureBlobStorage.Models.Dtos;
 using ZeroSigma.Domain.Common.Results;
 
-namespace FileUploadApiAzureBlobStorage
+namespace FileUploadApiAzureBlobStorage.Services
 {
     public class FileUploadService : IFileUploadService
     {
@@ -86,7 +86,7 @@ namespace FileUploadApiAzureBlobStorage
                     Size = $"{blob.Value.Details.ContentLength} bytes",
                     Url = client.Uri.AbsoluteUri
                 };
-                return (response);
+                return response;
             }
         }
 
